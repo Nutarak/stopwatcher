@@ -1,1 +1,24 @@
+# 忽略调试 CSV 文件
+*_debug.csv
+*_backtest_result.csv
+summary_backtest_report.csv
+
+# 忽略归档结果目录
+results/
+
+# 忽略日志文件
+*.log
+
+# 忽略 Python 字节码和缓存
+__pycache__/
+*.pyc
+
+# 忽略编辑器临时文件（如 nano, VSCode 等）
+*.swp
+*.swo
+*.tmp
+.vscode/
+
+# 忽略虚拟环境目录
+venv/
 .env
