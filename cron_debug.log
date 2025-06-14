@@ -1,0 +1,47 @@
+=== [Sat Jun 14 03:45:01 PM JST 2025] Cron Running run.sh ===
+/home/hayashi/stopwatcher/venv/bin/python
+requests           2.32.4
+yfinance           0.2.63
+
+--- 2025-06-14 15:45:03 ---
+TSLA 当前价格: 325.35 | 止盈: 275.00 | 止损: 235.00
+NVDA 当前价格: 141.96 | 止盈: 1188.00 | 止损: 1045.00
+AMD 当前价格: 116.18 | 止盈: 170.50 | 止损: 144.15
+PLTR 当前价格: 137.31 | 止盈: 24.64 | 止损: 20.24
+BNTX 当前价格: 106.62 | 止盈: 104.50 | 止损: 88.35
+=== [Sat Jun 14 03:50:01 PM JST 2025] Cron Running run.sh ===
+/home/hayashi/stopwatcher/venv/bin/python
+requests           2.32.4
+yfinance           0.2.63
+=== [Sat Jun 14 03:55:01 PM JST 2025] Cron Running run.sh ===
+/home/hayashi/stopwatcher/venv/bin/python
+requests           2.32.4
+yfinance           0.2.63
+=== [Sat Jun 14 04:00:01 PM JST 2025] Cron Running run.sh ===
+/home/hayashi/stopwatcher/venv/bin/python
+requests           2.32.4
+yfinance           0.2.63
+=== [Sat Jun 14 04:05:01 PM JST 2025] Cron Running run.sh ===
+/home/hayashi/stopwatcher/venv/bin/python
+requests           2.32.4
+yfinance           0.2.63
+=== [Sat Jun 14 04:10:01 PM JST 2025] Cron Running run.sh ===
+/home/hayashi/stopwatcher/venv/bin/python
+requests           2.32.4
+yfinance           0.2.63
+=== [Sat Jun 14 04:15:01 PM JST 2025] Cron Running run.sh ===
+/home/hayashi/stopwatcher/venv/bin/python
+requests           2.32.4
+yfinance           0.2.63
+=== [Sat Jun 14 04:20:01 PM JST 2025] Cron Running run.sh ===
+/home/hayashi/stopwatcher/venv/bin/python
+requests           2.32.4
+yfinance           0.2.63
+=== [Sat Jun 14 04:25:01 PM JST 2025] Cron Running run.sh ===
+/home/hayashi/stopwatcher/venv/bin/python
+requests           2.32.4
+yfinance           0.2.63
+=== [Sat Jun 14 04:30:01 PM JST 2025] Cron Running run.sh ===
+/home/hayashi/stopwatcher/venv/bin/python
+requests           2.32.4
+yfinance           0.2.63
