@@ -1,34 +1,22 @@
-# ⏰ StopWatcher - 自动止盈止损监控系统
+# 📈 StopWatcher: ATR 动态止盈止损系统
 
-> 实时追踪股票价格、触发止盈止损条件，并通过 Telegram 通知你！
-
----
-
-## 📌 项目简介
-
-`StopWatcher` 是一个轻量级的命令行工具，用于监控多支股票的价格波动。当股票价格达到设定的止盈或止损区间时，自动通过 Telegram 向你推送通知，避免你错过重要时机。
+**StopWatcher** 是一个基于 Python 的多资产止盈止损回测系统，利用 **ATR（Average True Range）** 进行波动率动态调节，适用于资产监控、回测分析与交易策略验证。
 
 ---
 
-## ⚙️ 功能特性
+## 🚀 功能概览
 
-- ✅ 支持美股、日股等主流股票市场（数据源：Yahoo Finance）
-- 🎯 每支股票支持设置独立的：
-  - 买入价
-  - 止盈百分比
-  - 止损百分比
-- 🔕 自动避免重复提醒（每日仅提醒一次）
-- 🔁 每日自动重置提醒状态
-- 📲 使用 Telegram Bot 实时推送提醒
-- 🖥️ 本地 Linux 系统运行，配合 crontab 实现定时执行
+- ✅ 自动下载美股历史数据（使用 `yfinance`）
+- ✅ 计算 14 日 ATR 波动指标（通过 `pandas_ta`）
+- ✅ 动态设定止盈 / 止损线（支持倍数配置）
+- ✅ 模拟策略在过去一年中是否被触发
+- ✅ 输出每日回测明细与总结报告（CSV 格式）
+- ✅ Git 自动同步与清理脚本辅助
 
 ---
 
-## 🚀 安装步骤
+## 🔧 安装依赖
 
 ```bash
-git clone git@github.com:Nutarak/stopwatcher.git
-cd stopwatcher
-python3 -m venv venv
-source venv/bin/activate
 pip install -r requirements.txt
+
