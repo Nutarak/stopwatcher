@@ -2,50 +2,44 @@ import os
 import json
 import yfinance as yf
 import requests
+import pandas as pd
+import pandas_ta as ta
 from datetime import datetime
 from dotenv import load_dotenv
 
-# 加载 .env 文件
+# === 加载 .env 配置 ===
 load_dotenv()
-
-
-# === Telegram 通知设定 ===
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 TELEGRAM_USER_ID = os.getenv("TELEGRAM_USER_ID")
 
-
-# 状态保存文件路径
-STATE_FILE = os.path.join(os.path.dirname(__file__), "state.json")
-
+# === Telegram 推送函数 ===
 def send_telegram_message(text):
     url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
-    data = {
-        "chat_id": TELEGRAM_USER_ID,
-        "text": text
-    }
-    print(f"[调试] 正在尝试发送 Telegram 消息: {text}")
+    data = {"chat_id": TELEGRAM_USER_ID, "text": text}
     try:
         response = requests.post(url, data=data)
-        print(f"[调试] Telegram API 响应状态码: {response.status_code}")
-        print(f"[调试] 返回内容: {response.text}")
+        print(f"[Telegram] 状态码: {response.status_code}")
     except Exception as e:
-        print(f"Telegram 通知失败: {e}")
+        print(f"[Telegram] 推送失败: {e}")
 
-def load_config():
-    config_path = os.path.join(os.path.dirname(__file__), "config.json")
-    with open(config_path, "r") as f:
-        return json.load(f)
-
+# === 状态文件读写 ===
 def load_state():
-    if not os.path.exists(STATE_FILE):
+    try:
+        with open("state.json", "r") as f:
+            return json.load(f)
+    except:
         return {}
-    with open(STATE_FILE, "r") as f:
-        return json.load(f)
 
 def save_state(state):
-    with open(STATE_FILE, "w") as f:
+    with open("state.json", "w") as f:
         json.dump(state, f)
 
+# === 加载配置文件 ===
+def load_config():
+    with open("config.json", "r") as f:
+        return json.load(f)
+
+# === 主判断逻辑 ===
 def check_prices(assets):
     print(f"\n--- {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} ---")
     state = load_state()
@@ -56,36 +50,48 @@ def check_prices(assets):
 
         symbol = asset["symbol"]
         buy_price = asset["buy_price"]
-        tp_pct = asset["take_profit_pct"]
-        sl_pct = asset["stop_loss_pct"]
+        sl_mult = asset.get("atr_stop_loss_multiplier", 2.0)
+        tp_mult = asset.get("atr_take_profit_multiplier", 3.0)
 
-        data = yf.Ticker(symbol).history(period="1d", interval="5m")
-        if data.empty:
-            print(f"{symbol}: ❌ 无法获取价格数据")
+        print(f"🔍 {symbol}: 获取价格中...")
+
+        data = yf.Ticker(symbol).history(period="2d", interval="5m")
+
+        if data.empty or len(data) < 20:
+            print(f"{symbol}: ❌ 数据不足")
             continue
 
-        current_price = data["Close"].iloc[-1]
-        tp_price = buy_price * (1 + tp_pct)
-        sl_price = buy_price * (1 - sl_pct)
+        data["ATR"] = ta.atr(high=data["High"], low=data["Low"], close=data["Close"], length=14)
+        atr = data["ATR"].iloc[-1]
+        price = data["Close"].iloc[-1]
 
-        print(f"{symbol} 当前价格: {current_price:.2f} | 止盈: {tp_price:.2f} | 止损: {sl_price:.2f}")
+        if pd.isna(atr):
+            print(f"{symbol}: ❌ 无法计算 ATR")
+            continue
 
-        already_triggered = state.get(symbol)
+        tp_price = buy_price + tp_mult * atr
+        sl_price = buy_price - sl_mult * atr
 
-        if current_price >= tp_price and already_triggered != "tp":
-            message = f"✅ {symbol} 当前价格 {current_price:.2f} 已触发止盈（目标: {tp_price:.2f}）"
-            print(message)
-            send_telegram_message(message)
+        print(f"{symbol} 当前价格: {price:.2f} | ATR: {atr:.2f} | 止盈: {tp_price:.2f} | 止损: {sl_price:.2f}")
+
+        # 检查是否已提醒
+        if symbol in state and state[symbol] in ["tp", "sl"]:
+            continue
+
+        if price >= tp_price:
+            msg = f"✅ {symbol} 当前价格 {price:.2f} 已触发止盈（目标: {tp_price:.2f}）"
+            print(msg)
+            send_telegram_message(msg)
             state[symbol] = "tp"
-
-        elif current_price <= sl_price and already_triggered != "sl":
-            message = f"⚠️ {symbol} 当前价格 {current_price:.2f} 已触发止损（目标: {sl_price:.2f}）"
-            print(message)
-            send_telegram_message(message)
+        elif price <= sl_price:
+            msg = f"⚠️ {symbol} 当前价格 {price:.2f} 已触发止损（目标: {sl_price:.2f}）"
+            print(msg)
+            send_telegram_message(msg)
             state[symbol] = "sl"
 
     save_state(state)
 
+# === 主入口 ===
 if __name__ == "__main__":
     config = load_config()
     check_prices(config["assets"])

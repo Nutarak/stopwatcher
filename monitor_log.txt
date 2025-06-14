@@ -102,3 +102,507 @@ NVDA 当前价格: 141.96 | 止盈: 1188.00 | 止损: 1045.00
 AMD 当前价格: 116.18 | 止盈: 170.50 | 止损: 144.15
 PLTR 当前价格: 137.31 | 止盈: 24.64 | 止损: 20.24
 BNTX 当前价格: 106.62 | 止盈: 104.50 | 止损: 88.35
+
+--- 2025-06-14 16:35:02 ---
+TSLA 当前价格: 325.35 | 止盈: 275.00 | 止损: 235.00
+NVDA 当前价格: 141.96 | 止盈: 1188.00 | 止损: 1045.00
+AMD 当前价格: 116.18 | 止盈: 170.50 | 止损: 144.15
+PLTR 当前价格: 137.31 | 止盈: 24.64 | 止损: 20.24
+BNTX 当前价格: 106.62 | 止盈: 104.50 | 止损: 88.35
+
+--- 2025-06-14 16:40:02 ---
+TSLA 当前价格: 325.35 | 止盈: 275.00 | 止损: 235.00
+NVDA 当前价格: 141.96 | 止盈: 1188.00 | 止损: 1045.00
+AMD 当前价格: 116.18 | 止盈: 170.50 | 止损: 144.15
+PLTR 当前价格: 137.31 | 止盈: 24.64 | 止损: 20.24
+BNTX 当前价格: 106.62 | 止盈: 104.50 | 止损: 88.35
+
+--- 2025-06-14 16:45:02 ---
+TSLA 当前价格: 325.35 | 止盈: 275.00 | 止损: 235.00
+NVDA 当前价格: 141.96 | 止盈: 1188.00 | 止损: 1045.00
+AMD 当前价格: 116.18 | 止盈: 170.50 | 止损: 144.15
+PLTR 当前价格: 137.31 | 止盈: 24.64 | 止损: 20.24
+BNTX 当前价格: 106.62 | 止盈: 104.50 | 止损: 88.35
+
+--- 2025-06-14 16:50:02 ---
+TSLA 当前价格: 325.35 | 止盈: 275.00 | 止损: 235.00
+NVDA 当前价格: 141.96 | 止盈: 1188.00 | 止损: 1045.00
+AMD 当前价格: 116.18 | 止盈: 170.50 | 止损: 144.15
+PLTR 当前价格: 137.31 | 止盈: 24.64 | 止损: 20.24
+BNTX 当前价格: 106.62 | 止盈: 104.50 | 止损: 88.35
+
+--- 2025-06-14 16:55:02 ---
+TSLA 当前价格: 325.35 | 止盈: 275.00 | 止损: 235.00
+NVDA 当前价格: 141.96 | 止盈: 1188.00 | 止损: 1045.00
+AMD 当前价格: 116.18 | 止盈: 170.50 | 止损: 144.15
+PLTR 当前价格: 137.31 | 止盈: 24.64 | 止损: 20.24
+BNTX 当前价格: 106.62 | 止盈: 104.50 | 止损: 88.35
+
+--- 2025-06-14 17:00:03 ---
+TSLA 当前价格: 325.35 | 止盈: 275.00 | 止损: 235.00
+NVDA 当前价格: 141.96 | 止盈: 1188.00 | 止损: 1045.00
+AMD 当前价格: 116.18 | 止盈: 170.50 | 止损: 144.15
+PLTR 当前价格: 137.31 | 止盈: 24.64 | 止损: 20.24
+BNTX 当前价格: 106.62 | 止盈: 104.50 | 止损: 88.35
+
+--- 2025-06-14 17:05:03 ---
+TSLA 当前价格: 325.35 | 止盈: 275.00 | 止损: 235.00
+NVDA 当前价格: 141.96 | 止盈: 1188.00 | 止损: 1045.00
+AMD 当前价格: 116.18 | 止盈: 170.50 | 止损: 144.15
+PLTR 当前价格: 137.31 | 止盈: 24.64 | 止损: 20.24
+BNTX 当前价格: 106.62 | 止盈: 104.50 | 止损: 88.35
+
+--- 2025-06-14 17:10:02 ---
+TSLA 当前价格: 325.35 | 止盈: 275.00 | 止损: 235.00
+NVDA 当前价格: 141.96 | 止盈: 1188.00 | 止损: 1045.00
+AMD 当前价格: 116.18 | 止盈: 170.50 | 止损: 144.15
+PLTR 当前价格: 137.31 | 止盈: 24.64 | 止损: 20.24
+BNTX 当前价格: 106.62 | 止盈: 104.50 | 止损: 88.35
+Traceback (most recent call last):
+  File "/home/hayashi/stopwatcher/watcher.py", line 6, in <module>
+    import pandas_ta as ta
+  File "/home/hayashi/stopwatcher/venv/lib/python3.12/site-packages/pandas_ta/__init__.py", line 7, in <module>
+    from pkg_resources import get_distribution, DistributionNotFound
+ModuleNotFoundError: No module named 'pkg_resources'
+Traceback (most recent call last):
+  File "/home/hayashi/stopwatcher/watcher.py", line 6, in <module>
+    import pandas_ta as ta
+  File "/home/hayashi/stopwatcher/venv/lib/python3.12/site-packages/pandas_ta/__init__.py", line 7, in <module>
+    from pkg_resources import get_distribution, DistributionNotFound
+ModuleNotFoundError: No module named 'pkg_resources'
+/home/hayashi/stopwatcher/venv/lib/python3.12/site-packages/pandas_ta/__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+Traceback (most recent call last):
+  File "/home/hayashi/stopwatcher/watcher.py", line 6, in <module>
+    import pandas_ta as ta
+  File "/home/hayashi/stopwatcher/venv/lib/python3.12/site-packages/pandas_ta/__init__.py", line 116, in <module>
+    from pandas_ta.core import *
+  File "/home/hayashi/stopwatcher/venv/lib/python3.12/site-packages/pandas_ta/core.py", line 18, in <module>
+    from pandas_ta.momentum import *
+  File "/home/hayashi/stopwatcher/venv/lib/python3.12/site-packages/pandas_ta/momentum/__init__.py", line 34, in <module>
+    from .squeeze_pro import squeeze_pro
+  File "/home/hayashi/stopwatcher/venv/lib/python3.12/site-packages/pandas_ta/momentum/squeeze_pro.py", line 2, in <module>
+    from numpy import NaN as npNaN
+ImportError: cannot import name 'NaN' from 'numpy' (/home/hayashi/stopwatcher/venv/lib/python3.12/site-packages/numpy/__init__.py). Did you mean: 'nan'?
+/home/hayashi/stopwatcher/venv/lib/python3.12/site-packages/pandas_ta/__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+Traceback (most recent call last):
+  File "/home/hayashi/stopwatcher/watcher.py", line 6, in <module>
+    import pandas_ta as ta
+  File "/home/hayashi/stopwatcher/venv/lib/python3.12/site-packages/pandas_ta/__init__.py", line 116, in <module>
+    from pandas_ta.core import *
+  File "/home/hayashi/stopwatcher/venv/lib/python3.12/site-packages/pandas_ta/core.py", line 18, in <module>
+    from pandas_ta.momentum import *
+  File "/home/hayashi/stopwatcher/venv/lib/python3.12/site-packages/pandas_ta/momentum/__init__.py", line 34, in <module>
+    from .squeeze_pro import squeeze_pro
+  File "/home/hayashi/stopwatcher/venv/lib/python3.12/site-packages/pandas_ta/momentum/squeeze_pro.py", line 2, in <module>
+    from numpy import NaN as npNaN
+ImportError: cannot import name 'NaN' from 'numpy' (/home/hayashi/stopwatcher/venv/lib/python3.12/site-packages/numpy/__init__.py). Did you mean: 'nan'?
+/home/hayashi/stopwatcher/venv/lib/python3.12/site-packages/pandas_ta/__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+
+--- 2025-06-14 17:21:33 ---
+🔍 TSLA: 获取价格中...
+TSLA 当前价格: 325.35 | ATR: 1.73 | 止盈: 255.19 | 止损: 246.54
+🔍 NVDA: 获取价格中...
+NVDA 当前价格: 141.96 | ATR: 0.36 | 止盈: 1101.02 | 止损: 1099.35
+🔍 AMD: 获取价格中...
+AMD 当前价格: 116.18 | ATR: 0.35 | 止盈: 156.12 | 止损: 154.30
+🔍 PLTR: 获取价格中...
+PLTR 当前价格: 137.31 | ATR: 0.49 | 止盈: 23.73 | 止损: 20.77
+🔍 BNTX: 获取价格中...
+BNTX 当前价格: 106.62 | ATR: 0.33 | 止盈: 96.00 | 止损: 94.33
+/home/hayashi/stopwatcher/venv/lib/python3.12/site-packages/pandas_ta/__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+
+--- 2025-06-14 17:23:26 ---
+🔍 TSLA: 获取价格中...
+TSLA 当前价格: 325.35 | ATR: 1.73 | 止盈: 255.19 | 止损: 246.54
+🔍 NVDA: 获取价格中...
+NVDA 当前价格: 141.96 | ATR: 0.36 | 止盈: 1101.02 | 止损: 1099.35
+🔍 AMD: 获取价格中...
+AMD 当前价格: 116.18 | ATR: 0.35 | 止盈: 156.12 | 止损: 154.30
+🔍 PLTR: 获取价格中...
+PLTR 当前价格: 137.31 | ATR: 0.49 | 止盈: 23.73 | 止损: 20.77
+🔍 BNTX: 获取价格中...
+BNTX 当前价格: 106.62 | ATR: 0.33 | 止盈: 96.00 | 止损: 94.33
+/home/hayashi/stopwatcher/venv/lib/python3.12/site-packages/pandas_ta/__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+
+--- 2025-06-14 17:25:03 ---
+🔍 TSLA: 获取价格中...
+TSLA 当前价格: 325.35 | ATR: 1.73 | 止盈: 255.19 | 止损: 246.54
+🔍 NVDA: 获取价格中...
+NVDA 当前价格: 141.96 | ATR: 0.36 | 止盈: 1101.02 | 止损: 1099.35
+🔍 AMD: 获取价格中...
+AMD 当前价格: 116.18 | ATR: 0.35 | 止盈: 156.12 | 止损: 154.30
+🔍 PLTR: 获取价格中...
+PLTR 当前价格: 137.31 | ATR: 0.49 | 止盈: 23.73 | 止损: 20.77
+🔍 BNTX: 获取价格中...
+BNTX 当前价格: 106.62 | ATR: 0.33 | 止盈: 96.00 | 止损: 94.33
+/home/hayashi/stopwatcher/venv/lib/python3.12/site-packages/pandas_ta/__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+
+--- 2025-06-14 17:25:57 ---
+🔍 TSLA: 获取价格中...
+TSLA 当前价格: 325.35 | ATR: 1.73 | 止盈: 255.19 | 止损: 246.54
+🔍 NVDA: 获取价格中...
+NVDA 当前价格: 141.96 | ATR: 0.36 | 止盈: 1101.02 | 止损: 1099.35
+🔍 AMD: 获取价格中...
+AMD 当前价格: 116.18 | ATR: 0.35 | 止盈: 156.12 | 止损: 154.30
+🔍 PLTR: 获取价格中...
+PLTR 当前价格: 137.31 | ATR: 0.49 | 止盈: 23.73 | 止损: 20.77
+🔍 BNTX: 获取价格中...
+BNTX 当前价格: 106.62 | ATR: 0.33 | 止盈: 96.00 | 止损: 94.33
+/home/hayashi/stopwatcher/venv/lib/python3.12/site-packages/pandas_ta/__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+
+--- 2025-06-14 17:30:02 ---
+🔍 TSLA: 获取价格中...
+TSLA 当前价格: 325.35 | ATR: 1.73 | 止盈: 255.19 | 止损: 246.54
+🔍 NVDA: 获取价格中...
+NVDA 当前价格: 141.96 | ATR: 0.36 | 止盈: 1101.02 | 止损: 1099.35
+🔍 AMD: 获取价格中...
+AMD 当前价格: 116.18 | ATR: 0.35 | 止盈: 156.12 | 止损: 154.30
+🔍 PLTR: 获取价格中...
+PLTR 当前价格: 137.31 | ATR: 0.49 | 止盈: 23.73 | 止损: 20.77
+🔍 BNTX: 获取价格中...
+BNTX 当前价格: 106.62 | ATR: 0.33 | 止盈: 96.00 | 止损: 94.33
+/home/hayashi/stopwatcher/venv/lib/python3.12/site-packages/pandas_ta/__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+
+--- 2025-06-14 17:35:03 ---
+🔍 TSLA: 获取价格中...
+TSLA 当前价格: 325.35 | ATR: 1.73 | 止盈: 255.19 | 止损: 246.54
+🔍 NVDA: 获取价格中...
+NVDA 当前价格: 141.96 | ATR: 0.36 | 止盈: 1101.09 | 止损: 1099.27
+🔍 AMD: 获取价格中...
+AMD 当前价格: 116.18 | ATR: 0.35 | 止盈: 156.05 | 止损: 154.30
+🔍 PLTR: 获取价格中...
+PLTR 当前价格: 137.31 | ATR: 0.49 | 止盈: 23.48 | 止损: 21.01
+🔍 BNTX: 获取价格中...
+BNTX 当前价格: 106.62 | ATR: 0.33 | 止盈: 96.00 | 止损: 94.33
+/home/hayashi/stopwatcher/venv/lib/python3.12/site-packages/pandas_ta/__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+
+--- 2025-06-14 17:40:02 ---
+🔍 TSLA: 获取价格中...
+TSLA 当前价格: 325.35 | ATR: 1.73 | 止盈: 255.19 | 止损: 246.54
+🔍 NVDA: 获取价格中...
+NVDA 当前价格: 141.96 | ATR: 0.36 | 止盈: 1101.09 | 止损: 1099.27
+🔍 AMD: 获取价格中...
+AMD 当前价格: 116.18 | ATR: 0.35 | 止盈: 156.05 | 止损: 154.30
+🔍 PLTR: 获取价格中...
+PLTR 当前价格: 137.31 | ATR: 0.49 | 止盈: 23.48 | 止损: 21.01
+🔍 BNTX: 获取价格中...
+BNTX 当前价格: 106.62 | ATR: 0.33 | 止盈: 96.00 | 止损: 94.33
+/home/hayashi/stopwatcher/venv/lib/python3.12/site-packages/pandas_ta/__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+
+--- 2025-06-14 17:45:02 ---
+🔍 TSLA: 获取价格中...
+TSLA 当前价格: 325.35 | ATR: 1.73 | 止盈: 255.19 | 止损: 246.54
+🔍 NVDA: 获取价格中...
+NVDA 当前价格: 141.96 | ATR: 0.36 | 止盈: 1101.09 | 止损: 1099.27
+🔍 AMD: 获取价格中...
+AMD 当前价格: 116.18 | ATR: 0.35 | 止盈: 156.05 | 止损: 154.30
+🔍 PLTR: 获取价格中...
+PLTR 当前价格: 137.31 | ATR: 0.49 | 止盈: 23.48 | 止损: 21.01
+🔍 BNTX: 获取价格中...
+BNTX 当前价格: 106.62 | ATR: 0.33 | 止盈: 96.00 | 止损: 94.33
+/home/hayashi/stopwatcher/venv/lib/python3.12/site-packages/pandas_ta/__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+
+--- 2025-06-14 17:50:02 ---
+🔍 TSLA: 获取价格中...
+TSLA 当前价格: 325.35 | ATR: 1.73 | 止盈: 255.19 | 止损: 246.54
+🔍 NVDA: 获取价格中...
+NVDA 当前价格: 141.96 | ATR: 0.36 | 止盈: 1101.09 | 止损: 1099.27
+🔍 AMD: 获取价格中...
+AMD 当前价格: 116.18 | ATR: 0.35 | 止盈: 156.05 | 止损: 154.30
+🔍 PLTR: 获取价格中...
+PLTR 当前价格: 137.31 | ATR: 0.49 | 止盈: 23.48 | 止损: 21.01
+🔍 BNTX: 获取价格中...
+BNTX 当前价格: 106.62 | ATR: 0.33 | 止盈: 96.00 | 止损: 94.33
+/home/hayashi/stopwatcher/venv/lib/python3.12/site-packages/pandas_ta/__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+
+--- 2025-06-14 17:55:02 ---
+🔍 TSLA: 获取价格中...
+TSLA 当前价格: 325.35 | ATR: 1.73 | 止盈: 255.19 | 止损: 246.54
+🔍 NVDA: 获取价格中...
+NVDA 当前价格: 141.96 | ATR: 0.36 | 止盈: 1101.09 | 止损: 1099.27
+🔍 AMD: 获取价格中...
+AMD 当前价格: 116.18 | ATR: 0.35 | 止盈: 156.05 | 止损: 154.30
+🔍 PLTR: 获取价格中...
+PLTR 当前价格: 137.31 | ATR: 0.49 | 止盈: 23.48 | 止损: 21.01
+🔍 BNTX: 获取价格中...
+BNTX 当前价格: 106.62 | ATR: 0.33 | 止盈: 96.00 | 止损: 94.33
+/home/hayashi/stopwatcher/venv/lib/python3.12/site-packages/pandas_ta/__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+
+--- 2025-06-14 18:00:02 ---
+🔍 TSLA: 获取价格中...
+TSLA 当前价格: 325.35 | ATR: 1.73 | 止盈: 255.19 | 止损: 246.54
+🔍 NVDA: 获取价格中...
+NVDA 当前价格: 141.96 | ATR: 0.36 | 止盈: 1101.09 | 止损: 1099.27
+🔍 AMD: 获取价格中...
+AMD 当前价格: 116.18 | ATR: 0.35 | 止盈: 156.05 | 止损: 154.30
+🔍 PLTR: 获取价格中...
+PLTR 当前价格: 137.31 | ATR: 0.49 | 止盈: 23.48 | 止损: 21.01
+🔍 BNTX: 获取价格中...
+BNTX 当前价格: 106.62 | ATR: 0.33 | 止盈: 96.00 | 止损: 94.33
+/home/hayashi/stopwatcher/venv/lib/python3.12/site-packages/pandas_ta/__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+
+--- 2025-06-14 18:05:03 ---
+🔍 TSLA: 获取价格中...
+TSLA 当前价格: 325.35 | ATR: 1.73 | 止盈: 255.19 | 止损: 246.54
+🔍 NVDA: 获取价格中...
+NVDA 当前价格: 141.96 | ATR: 0.36 | 止盈: 1101.09 | 止损: 1099.27
+🔍 AMD: 获取价格中...
+AMD 当前价格: 116.18 | ATR: 0.35 | 止盈: 156.05 | 止损: 154.30
+🔍 PLTR: 获取价格中...
+PLTR 当前价格: 137.31 | ATR: 0.49 | 止盈: 23.48 | 止损: 21.01
+🔍 BNTX: 获取价格中...
+BNTX 当前价格: 106.62 | ATR: 0.33 | 止盈: 96.00 | 止损: 94.33
+/home/hayashi/stopwatcher/venv/lib/python3.12/site-packages/pandas_ta/__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+
+--- 2025-06-14 18:10:02 ---
+🔍 TSLA: 获取价格中...
+TSLA 当前价格: 325.35 | ATR: 1.73 | 止盈: 255.19 | 止损: 246.54
+🔍 NVDA: 获取价格中...
+NVDA 当前价格: 141.96 | ATR: 0.36 | 止盈: 1101.09 | 止损: 1099.27
+🔍 AMD: 获取价格中...
+AMD 当前价格: 116.18 | ATR: 0.35 | 止盈: 156.05 | 止损: 154.30
+🔍 PLTR: 获取价格中...
+PLTR 当前价格: 137.31 | ATR: 0.49 | 止盈: 23.48 | 止损: 21.01
+🔍 BNTX: 获取价格中...
+BNTX 当前价格: 106.62 | ATR: 0.33 | 止盈: 96.00 | 止损: 94.33
+/home/hayashi/stopwatcher/venv/lib/python3.12/site-packages/pandas_ta/__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+
+--- 2025-06-14 18:15:03 ---
+🔍 TSLA: 获取价格中...
+TSLA 当前价格: 325.35 | ATR: 1.73 | 止盈: 255.19 | 止损: 246.54
+🔍 NVDA: 获取价格中...
+NVDA 当前价格: 141.96 | ATR: 0.36 | 止盈: 1101.09 | 止损: 1099.27
+🔍 AMD: 获取价格中...
+AMD 当前价格: 116.18 | ATR: 0.35 | 止盈: 156.05 | 止损: 154.30
+🔍 PLTR: 获取价格中...
+PLTR 当前价格: 137.31 | ATR: 0.49 | 止盈: 23.48 | 止损: 21.01
+🔍 BNTX: 获取价格中...
+BNTX 当前价格: 106.62 | ATR: 0.33 | 止盈: 96.00 | 止损: 94.33
+/home/hayashi/stopwatcher/venv/lib/python3.12/site-packages/pandas_ta/__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+
+--- 2025-06-14 18:20:03 ---
+🔍 TSLA: 获取价格中...
+TSLA 当前价格: 325.35 | ATR: 1.73 | 止盈: 255.19 | 止损: 246.54
+🔍 NVDA: 获取价格中...
+NVDA 当前价格: 141.96 | ATR: 0.36 | 止盈: 1101.09 | 止损: 1099.27
+🔍 AMD: 获取价格中...
+AMD 当前价格: 116.18 | ATR: 0.35 | 止盈: 156.05 | 止损: 154.30
+🔍 PLTR: 获取价格中...
+PLTR 当前价格: 137.31 | ATR: 0.49 | 止盈: 23.48 | 止损: 21.01
+🔍 BNTX: 获取价格中...
+BNTX 当前价格: 106.62 | ATR: 0.33 | 止盈: 96.00 | 止损: 94.33
+/home/hayashi/stopwatcher/venv/lib/python3.12/site-packages/pandas_ta/__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+
+--- 2025-06-14 18:25:03 ---
+🔍 TSLA: 获取价格中...
+TSLA 当前价格: 325.35 | ATR: 1.73 | 止盈: 255.19 | 止损: 246.54
+🔍 NVDA: 获取价格中...
+NVDA 当前价格: 141.96 | ATR: 0.36 | 止盈: 1101.09 | 止损: 1099.27
+🔍 AMD: 获取价格中...
+AMD 当前价格: 116.18 | ATR: 0.35 | 止盈: 156.05 | 止损: 154.30
+🔍 PLTR: 获取价格中...
+PLTR 当前价格: 137.31 | ATR: 0.49 | 止盈: 23.48 | 止损: 21.01
+🔍 BNTX: 获取价格中...
+BNTX 当前价格: 106.62 | ATR: 0.33 | 止盈: 96.00 | 止损: 94.33
+/home/hayashi/stopwatcher/venv/lib/python3.12/site-packages/pandas_ta/__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+
+--- 2025-06-14 18:30:03 ---
+🔍 AAPL: 获取价格中...
+AAPL 当前价格: 196.45 | ATR: 0.42 | 止盈: 181.27 | 止损: 179.15
+✅ AAPL 当前价格 196.45 已触发止盈（目标: 181.27）
+[Telegram] 状态码: 200
+🔍 MSFT: 获取价格中...
+MSFT 当前价格: 474.96 | ATR: 0.74 | 止盈: 312.21 | 止损: 308.53
+✅ MSFT 当前价格 474.96 已触发止盈（目标: 312.21）
+[Telegram] 状态码: 200
+/home/hayashi/stopwatcher/venv/lib/python3.12/site-packages/pandas_ta/__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+
+--- 2025-06-14 18:35:03 ---
+🔍 AAPL: 获取价格中...
+AAPL 当前价格: 196.45 | ATR: 0.42 | 止盈: 181.27 | 止损: 179.15
+🔍 MSFT: 获取价格中...
+MSFT 当前价格: 474.96 | ATR: 0.74 | 止盈: 312.21 | 止损: 308.53
+/home/hayashi/stopwatcher/venv/lib/python3.12/site-packages/pandas_ta/__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+
+--- 2025-06-14 18:40:03 ---
+🔍 AAPL: 获取价格中...
+AAPL 当前价格: 196.45 | ATR: 0.42 | 止盈: 151.27 | 止损: 149.15
+🔍 MSFT: 获取价格中...
+MSFT 当前价格: 474.96 | ATR: 0.74 | 止盈: 302.21 | 止损: 298.53
+🔍 NVDA: 获取价格中...
+NVDA 当前价格: 141.96 | ATR: 0.36 | 止盈: 701.09 | 止损: 699.27
+🔍 TSLA: 获取价格中...
+TSLA 当前价格: 325.35 | ATR: 1.73 | 止盈: 655.19 | 止损: 646.54
+🔍 AMD: 获取价格中...
+AMD 当前价格: 116.18 | ATR: 0.35 | 止盈: 121.05 | 止损: 119.30
+/home/hayashi/stopwatcher/venv/lib/python3.12/site-packages/pandas_ta/__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+
+--- 2025-06-14 18:45:03 ---
+🔍 AAPL: 获取价格中...
+AAPL 当前价格: 196.45 | ATR: 0.42 | 止盈: 151.27 | 止损: 149.15
+🔍 MSFT: 获取价格中...
+MSFT 当前价格: 474.96 | ATR: 0.74 | 止盈: 302.21 | 止损: 298.53
+🔍 NVDA: 获取价格中...
+NVDA 当前价格: 141.96 | ATR: 0.36 | 止盈: 701.09 | 止损: 699.27
+🔍 TSLA: 获取价格中...
+TSLA 当前价格: 325.35 | ATR: 1.73 | 止盈: 655.19 | 止损: 646.54
+🔍 AMD: 获取价格中...
+AMD 当前价格: 116.18 | ATR: 0.35 | 止盈: 121.05 | 止损: 119.30
+/home/hayashi/stopwatcher/venv/lib/python3.12/site-packages/pandas_ta/__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+
+--- 2025-06-14 18:50:02 ---
+🔍 AAPL: 获取价格中...
+AAPL 当前价格: 196.45 | ATR: 0.42 | 止盈: 151.27 | 止损: 149.15
+🔍 MSFT: 获取价格中...
+MSFT 当前价格: 474.96 | ATR: 0.74 | 止盈: 302.21 | 止损: 298.53
+🔍 NVDA: 获取价格中...
+NVDA 当前价格: 141.96 | ATR: 0.36 | 止盈: 701.09 | 止损: 699.27
+🔍 TSLA: 获取价格中...
+TSLA 当前价格: 325.35 | ATR: 1.73 | 止盈: 655.19 | 止损: 646.54
+🔍 AMD: 获取价格中...
+AMD 当前价格: 116.18 | ATR: 0.35 | 止盈: 121.05 | 止损: 119.30
+/home/hayashi/stopwatcher/venv/lib/python3.12/site-packages/pandas_ta/__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+
+--- 2025-06-14 18:55:03 ---
+🔍 AAPL: 获取价格中...
+AAPL 当前价格: 196.45 | ATR: 0.42 | 止盈: 151.27 | 止损: 149.15
+🔍 MSFT: 获取价格中...
+MSFT 当前价格: 474.96 | ATR: 0.74 | 止盈: 302.21 | 止损: 298.53
+🔍 NVDA: 获取价格中...
+NVDA 当前价格: 141.96 | ATR: 0.36 | 止盈: 701.09 | 止损: 699.27
+🔍 TSLA: 获取价格中...
+TSLA 当前价格: 325.35 | ATR: 1.73 | 止盈: 655.19 | 止损: 646.54
+🔍 AMD: 获取价格中...
+AMD 当前价格: 116.18 | ATR: 0.35 | 止盈: 121.05 | 止损: 119.30
+/home/hayashi/stopwatcher/venv/lib/python3.12/site-packages/pandas_ta/__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+
+--- 2025-06-14 19:00:03 ---
+🔍 AAPL: 获取价格中...
+AAPL 当前价格: 196.45 | ATR: 0.42 | 止盈: 151.27 | 止损: 149.15
+🔍 MSFT: 获取价格中...
+MSFT 当前价格: 474.96 | ATR: 0.74 | 止盈: 302.21 | 止损: 298.53
+🔍 NVDA: 获取价格中...
+NVDA 当前价格: 141.96 | ATR: 0.36 | 止盈: 701.09 | 止损: 699.27
+🔍 TSLA: 获取价格中...
+TSLA 当前价格: 325.35 | ATR: 1.73 | 止盈: 655.19 | 止损: 646.54
+🔍 AMD: 获取价格中...
+AMD 当前价格: 116.18 | ATR: 0.35 | 止盈: 121.05 | 止损: 119.30
+/home/hayashi/stopwatcher/venv/lib/python3.12/site-packages/pandas_ta/__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+
+--- 2025-06-14 19:05:02 ---
+🔍 AAPL: 获取价格中...
+AAPL 当前价格: 196.45 | ATR: 0.42 | 止盈: 151.27 | 止损: 149.15
+🔍 MSFT: 获取价格中...
+MSFT 当前价格: 474.96 | ATR: 0.74 | 止盈: 302.21 | 止损: 298.53
+🔍 NVDA: 获取价格中...
+NVDA 当前价格: 141.96 | ATR: 0.36 | 止盈: 701.09 | 止损: 699.27
+🔍 TSLA: 获取价格中...
+TSLA 当前价格: 325.35 | ATR: 1.73 | 止盈: 655.19 | 止损: 646.54
+🔍 AMD: 获取价格中...
+AMD 当前价格: 116.18 | ATR: 0.35 | 止盈: 121.05 | 止损: 119.30
+/home/hayashi/stopwatcher/venv/lib/python3.12/site-packages/pandas_ta/__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+
+--- 2025-06-14 19:10:03 ---
+🔍 AAPL: 获取价格中...
+AAPL 当前价格: 196.45 | ATR: 0.42 | 止盈: 151.27 | 止损: 149.15
+🔍 MSFT: 获取价格中...
+MSFT 当前价格: 474.96 | ATR: 0.74 | 止盈: 302.21 | 止损: 298.53
+🔍 NVDA: 获取价格中...
+NVDA 当前价格: 141.96 | ATR: 0.36 | 止盈: 701.09 | 止损: 699.27
+🔍 TSLA: 获取价格中...
+TSLA 当前价格: 325.35 | ATR: 1.73 | 止盈: 655.19 | 止损: 646.54
+🔍 AMD: 获取价格中...
+AMD 当前价格: 116.18 | ATR: 0.35 | 止盈: 121.05 | 止损: 119.30
+/home/hayashi/stopwatcher/venv/lib/python3.12/site-packages/pandas_ta/__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+
+--- 2025-06-14 19:15:02 ---
+Traceback (most recent call last):
+  File "/home/hayashi/stopwatcher/watcher.py", line 97, in <module>
+    check_prices(config["assets"])
+  File "/home/hayashi/stopwatcher/watcher.py", line 52, in check_prices
+    buy_price = asset["buy_price"]
+                ~~~~~^^^^^^^^^^^^^
+KeyError: 'buy_price'
+/home/hayashi/stopwatcher/venv/lib/python3.12/site-packages/pandas_ta/__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+
+--- 2025-06-14 19:20:03 ---
+Traceback (most recent call last):
+  File "/home/hayashi/stopwatcher/watcher.py", line 97, in <module>
+    check_prices(config["assets"])
+  File "/home/hayashi/stopwatcher/watcher.py", line 52, in check_prices
+    buy_price = asset["buy_price"]
+                ~~~~~^^^^^^^^^^^^^
+KeyError: 'buy_price'
+/home/hayashi/stopwatcher/venv/lib/python3.12/site-packages/pandas_ta/__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+
+--- 2025-06-14 19:25:02 ---
+Traceback (most recent call last):
+  File "/home/hayashi/stopwatcher/watcher.py", line 97, in <module>
+    check_prices(config["assets"])
+  File "/home/hayashi/stopwatcher/watcher.py", line 52, in check_prices
+    buy_price = asset["buy_price"]
+                ~~~~~^^^^^^^^^^^^^
+KeyError: 'buy_price'
+/home/hayashi/stopwatcher/venv/lib/python3.12/site-packages/pandas_ta/__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+
+--- 2025-06-14 19:30:02 ---
+Traceback (most recent call last):
+  File "/home/hayashi/stopwatcher/watcher.py", line 97, in <module>
+    check_prices(config["assets"])
+  File "/home/hayashi/stopwatcher/watcher.py", line 52, in check_prices
+    buy_price = asset["buy_price"]
+                ~~~~~^^^^^^^^^^^^^
+KeyError: 'buy_price'
+/home/hayashi/stopwatcher/venv/lib/python3.12/site-packages/pandas_ta/__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+
+--- 2025-06-14 19:35:03 ---
+Traceback (most recent call last):
+  File "/home/hayashi/stopwatcher/watcher.py", line 97, in <module>
+    check_prices(config["assets"])
+  File "/home/hayashi/stopwatcher/watcher.py", line 52, in check_prices
+    buy_price = asset["buy_price"]
+                ~~~~~^^^^^^^^^^^^^
+KeyError: 'buy_price'
+/home/hayashi/stopwatcher/venv/lib/python3.12/site-packages/pandas_ta/__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+
+--- 2025-06-14 19:40:02 ---
+Traceback (most recent call last):
+  File "/home/hayashi/stopwatcher/watcher.py", line 97, in <module>
+    check_prices(config["assets"])
+  File "/home/hayashi/stopwatcher/watcher.py", line 52, in check_prices
+    buy_price = asset["buy_price"]
+                ~~~~~^^^^^^^^^^^^^
+KeyError: 'buy_price'
